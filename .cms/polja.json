@@ -1265,5 +1265,33 @@
     "group": "Noga",
     "label": "Facebook — povezava",
     "kind": "link"
+  },
+  {
+    "key": "t-meeting-location-label",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Lokacija — oznaka",
+    "kind": "text"
+  },
+  {
+    "key": "t-meeting-location",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Lokacija mesečnih srečanj",
+    "kind": "text"
+  },
+  {
+    "key": "t-meeting-map-button",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Gumb za zemljevid — besedilo",
+    "kind": "text"
+  },
+  {
+    "key": "l-meeting-map",
+    "bucket": "povezave",
+    "group": "Srečanja",
+    "label": "Google Maps — Grad Rakovnik",
+    "kind": "link"
   }
 ]

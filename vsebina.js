@@ -298,7 +298,10 @@ window.VSEBINA = {
       "t055": "Skupaj",
       "t056": "Molitev in glasbeno slavljenje",
       "t057": "Naslednji termin",
-      "t058": "Vprašaj nas o srečanjih ↗"
+      "t058": "Vprašaj nas o srečanjih ↗",
+      "t-meeting-location-label": "Lokacija mesečnih srečanj",
+      "t-meeting-location": "Grad Rakovnik",
+      "t-meeting-map-button": "Odpri Google Maps ↗"
     },
     "Dogodki": {
       "t059": "DOGODKI / SKUPNOST SKOZI LETO",
@@ -376,7 +379,8 @@ window.VSEBINA = {
     },
     "Srečanja": {
       "l008": "Svetopisemska misel ob mirnem jezeru: Naj te ne bo strah, saj sem s teboj. Iz 43,5.",
-      "l009": "#kontakt"
+      "l009": "#kontakt",
+      "l-meeting-map": "https://maps.app.goo.gl/Gtu4gvy1LrBc7uEu7"
     },
     "Dogodki": {
       "l010": "Prikaz dogodkov"
@@ -907,6 +911,21 @@ window.VSEBINA = {
       "velikostPisave": ""
     },
     "t-social-facebook": {
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
+    },
+    "t-meeting-location-label": {
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
+    },
+    "t-meeting-location": {
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
+    },
+    "t-meeting-map-button": {
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
