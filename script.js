@@ -102,7 +102,14 @@ document.getElementById('pretekli').textContent=oznake.pretekli;
 document.getElementById('prihajajoci').addEventListener('click',()=>{prikaziPretekle=false;renderEvents();});
 document.getElementById('pretekli').addEventListener('click',()=>{prikaziPretekle=true;renderEvents();});renderEvents();
 // Pri avdio posnetkih je mogoče dodati datoteko ali zunanjo povezavo.
-document.querySelectorAll('#glasba-seznam .track').forEach((row,i)=>{const link=vsebina.glasba[i]?.povezava;if(!link)return;if(/\.(mp3|m4a|ogg|wav)(\?|$)/i.test(link)){const player=document.createElement('audio');player.controls=true;player.preload='none';player.src=link;row.append(player);}else row.append(externalEventLink(link,oznake.poslusaj));});
+function musicMediaKind(url){const path=String(url||'').trim().split(/[?#]/)[0];if(/\.(mp3|m4a|ogg|wav)$/i.test(path))return 'audio';if(/\.(mp4|webm)$/i.test(path))return 'video';return 'link';}
+document.querySelectorAll('#glasba-seznam .track').forEach((row,i)=>{
+ const item=vsebina.glasba[i],link=(item?.povezava||'').trim();if(!link)return;
+ const holder=document.createElement('div');holder.className='track-media';const kind=musicMediaKind(link);
+ if(kind==='audio'||kind==='video'){const player=document.createElement(kind);player.controls=true;player.preload='metadata';player.src=link;player.setAttribute('aria-label',item.naslov||'Posnetek');if(kind==='video')player.playsInline=true;holder.append(player);}
+ else holder.append(externalEventLink(link,vsebina.oznake?.posnetek||'Odpri posnetek ↗'));
+ row.append(holder);
+});
 
 document.querySelectorAll("#glasba-seznam .track").forEach((row,i)=>{const item=vsebina.glasba[i];if(item.barvaBesedila)row.style.color=item.barvaBesedila;if(item.barvaOzadja)row.style.backgroundColor=item.barvaOzadja;if(item.velikostPisave)row.style.fontSize=item.velikostPisave+"px";});
 

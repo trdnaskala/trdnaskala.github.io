@@ -221,7 +221,8 @@ window.VSEBINA = {
     "brezDatum": "Datum objavimo naknadno.",
     "brezDogodkov": "Trenutno ni objavljenih dogodkov.",
     "odpriSliko": "Odpri sliko ↗",
-    "poslusaj": "Poslušaj posnetek ↗"
+    "poslusaj": "Poslušaj posnetek ↗",
+    "posnetek": "Odpri posnetek ↗"
   },
   "pisave": {
     "besedilo": "'DM Sans', Arial, sans-serif",
@@ -327,9 +328,7 @@ window.VSEBINA = {
       "t073": "04 / GLASBA IN SLAVLJENJE",
       "t074": "Ko molitev",
       "t075": "postane pesem.",
-      "t076": "Izbor glasbe Marije in Silvestra Bukovca iz arhiva Trdne Skale. Pesmi in instrumentalne meditacije za čas slavljenja in zbranosti.",
-      "t077": "Poslušaj v obstoječem glasbenem arhivu ",
-      "t078": "↗"
+      "t076": "Izbor glasbe Marije in Silvestra Bukovca iz arhiva Trdne Skale. Pesmi in instrumentalne meditacije za čas slavljenja in zbranosti."
     },
     "Kontakt": {
       "t079": "05 / KONTAKT",
@@ -388,9 +387,7 @@ window.VSEBINA = {
     "Scripture": {
       "l011": "https://www.biblija.net/biblija.cgi?m=Jer+33%2C3&l=sl&set=2"
     },
-    "Glasba": {
-      "l012": "https://trdnaskala.wixsite.com/trdna-skala-lj/glasba"
-    },
+    "Glasba": {},
     "Invitation": {
       "l013": "#srecanja"
     },
@@ -791,16 +788,6 @@ window.VSEBINA = {
       "velikostPisave": ""
     },
     "t076": {
-      "barvaBesedila": "",
-      "barvaOzadja": "",
-      "velikostPisave": ""
-    },
-    "t077": {
-      "barvaBesedila": "",
-      "barvaOzadja": "",
-      "velikostPisave": ""
-    },
-    "t078": {
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""

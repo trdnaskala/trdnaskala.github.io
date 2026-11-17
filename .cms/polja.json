@@ -637,27 +637,6 @@
     "kind": "text"
   },
   {
-    "key": "l012",
-    "bucket": "povezave",
-    "group": "Glasba",
-    "label": "Povezava: https://trdnaskala.wixsite.com/trdna-skala-lj/glasba",
-    "kind": "link"
-  },
-  {
-    "key": "t077",
-    "bucket": "besedila",
-    "group": "Glasba",
-    "label": "Poslušaj v obstoječem glasbenem arhivu",
-    "kind": "text"
-  },
-  {
-    "key": "t078",
-    "bucket": "besedila",
-    "group": "Glasba",
-    "label": "↗",
-    "kind": "text"
-  },
-  {
     "key": "t079",
     "bucket": "besedila",
     "group": "Kontakt",
