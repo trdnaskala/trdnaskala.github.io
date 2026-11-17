@@ -1,0 +1,1269 @@
+[
+  {
+    "key": "l001",
+    "bucket": "povezave",
+    "group": "Splošno",
+    "label": "Opis za iskalnike",
+    "kind": "text"
+  },
+  {
+    "key": "m001",
+    "bucket": "mediji",
+    "group": "Splošno",
+    "label": "Logotip / ikona",
+    "kind": "image"
+  },
+  {
+    "key": "l002",
+    "bucket": "povezave",
+    "group": "Splošno",
+    "label": "Povezava: #vsebina",
+    "kind": "link"
+  },
+  {
+    "key": "t001",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "Preskoči na vsebino",
+    "kind": "text"
+  },
+  {
+    "key": "l003",
+    "bucket": "povezave",
+    "group": "Glava in meni",
+    "label": "Povezava: #domov",
+    "kind": "link"
+  },
+  {
+    "key": "l004",
+    "bucket": "povezave",
+    "group": "Glava in meni",
+    "label": "Opis slike",
+    "kind": "text"
+  },
+  {
+    "key": "t002",
+    "bucket": "besedila",
+    "group": "Glava in meni",
+    "label": "TRDNA SKALA",
+    "kind": "text"
+  },
+  {
+    "key": "t003",
+    "bucket": "besedila",
+    "group": "Glava in meni",
+    "label": "SKUPNOST OB BOŽJI BESEDI",
+    "kind": "text"
+  },
+  {
+    "key": "t004",
+    "bucket": "besedila",
+    "group": "Glava in meni",
+    "label": "Meni ☰",
+    "kind": "text"
+  },
+  {
+    "key": "m002",
+    "bucket": "mediji",
+    "group": "Naslovnica",
+    "label": "Slika pred videom",
+    "kind": "image"
+  },
+  {
+    "key": "m003",
+    "bucket": "mediji",
+    "group": "Naslovnica",
+    "label": "Video v naslovnici",
+    "kind": "video"
+  },
+  {
+    "key": "t005",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "TRDNA SKALA · LJUBLJANA",
+    "kind": "text"
+  },
+  {
+    "key": "t006",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "BESEDA, NA KATERI GRADIMO · JER 33,3",
+    "kind": "text"
+  },
+  {
+    "key": "t007",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "Kliči me",
+    "kind": "text"
+  },
+  {
+    "key": "t008",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "in ti bom",
+    "kind": "text"
+  },
+  {
+    "key": "t009",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "odgovoril.",
+    "kind": "text"
+  },
+  {
+    "key": "t010",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "Skupaj odkrivamo Božjo besedo, rastemo v veri in se povezujemo v skupnost.",
+    "kind": "text"
+  },
+  {
+    "key": "l005",
+    "bucket": "povezave",
+    "group": "Naslovnica",
+    "label": "Povezava: #srecanja",
+    "kind": "link"
+  },
+  {
+    "key": "t011",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "Spoznaj naša srečanja",
+    "kind": "text"
+  },
+  {
+    "key": "t012",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "↗",
+    "kind": "text"
+  },
+  {
+    "key": "l006",
+    "bucket": "povezave",
+    "group": "Naslovnica",
+    "label": "Povezava: #skupnost",
+    "kind": "link"
+  },
+  {
+    "key": "t013",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "Naša zgodba ↓",
+    "kind": "text"
+  },
+  {
+    "key": "t014",
+    "bucket": "besedila",
+    "group": "Naslovnica",
+    "label": "BESEDA. SLAVLJENJE. SKUPNOST.",
+    "kind": "text"
+  },
+  {
+    "key": "t015",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "Vera, ki jo živimo skupaj.",
+    "kind": "text"
+  },
+  {
+    "key": "t016",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "SVETO PISMO",
+    "kind": "text"
+  },
+  {
+    "key": "t017",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "✦",
+    "kind": "text"
+  },
+  {
+    "key": "t018",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "MOLITEV",
+    "kind": "text"
+  },
+  {
+    "key": "t019",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "✦",
+    "kind": "text"
+  },
+  {
+    "key": "t020",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "SLAVLJENJE",
+    "kind": "text"
+  },
+  {
+    "key": "t021",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "✦",
+    "kind": "text"
+  },
+  {
+    "key": "t022",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "SKUPNOST",
+    "kind": "text"
+  },
+  {
+    "key": "t023",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "01 / NAŠA SKUPNOST",
+    "kind": "text"
+  },
+  {
+    "key": "t024",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Skupaj.",
+    "kind": "text"
+  },
+  {
+    "key": "t025",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Na trdnem",
+    "kind": "text"
+  },
+  {
+    "key": "t026",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "temelju.",
+    "kind": "text"
+  },
+  {
+    "key": "t027",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Smo Trdna Skala. Skupnost ljudi, ki nas povezuje želja po spoznavanju Boga in njegove besede.",
+    "kind": "text"
+  },
+  {
+    "key": "t028",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Temelj našega povezovanja so mesečna srečanja s proučevanjem Svetega pisma. Prostor namenjamo tudi m",
+    "kind": "text"
+  },
+  {
+    "key": "t029",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Naša ustanovitvena svetopisemska misel je Jer 33,3 — povabilo, da Boga kličemo in mu prisluhnemo.",
+    "kind": "text"
+  },
+  {
+    "key": "l007",
+    "bucket": "povezave",
+    "group": "O skupnosti",
+    "label": "Povezava: #srecanja",
+    "kind": "link"
+  },
+  {
+    "key": "t030",
+    "bucket": "besedila",
+    "group": "O skupnosti",
+    "label": "Spoznaj, kako se srečujemo ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t031",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "NAŠE POSLANSTVO / RIM 12,9–21",
+    "kind": "text"
+  },
+  {
+    "key": "t032",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Ljubiti iskreno.",
+    "kind": "text"
+  },
+  {
+    "key": "t033",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Živeti dobro.",
+    "kind": "text"
+  },
+  {
+    "key": "t034",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Naše poslanstvo črpamo iz Pavlovega pisma Rimljanom: ljubiti brez hinavščine, vztrajati v molitvi in",
+    "kind": "text"
+  },
+  {
+    "key": "t035",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "01",
+    "kind": "text"
+  },
+  {
+    "key": "t036",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Ljubezen in spoštovanje",
+    "kind": "text"
+  },
+  {
+    "key": "t037",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Drug drugega ljubimo z bratovsko ljubeznijo. Veselimo se z veselimi in smo blizu tistim, ki jočejo.",
+    "kind": "text"
+  },
+  {
+    "key": "t038",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "02",
+    "kind": "text"
+  },
+  {
+    "key": "t039",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Molitev in gostoljubje",
+    "kind": "text"
+  },
+  {
+    "key": "t040",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "V upanju se veselimo, v stiski vztrajamo. Pomagamo ljudem v potrebi in odpiramo prostor za druge.",
+    "kind": "text"
+  },
+  {
+    "key": "t041",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "03",
+    "kind": "text"
+  },
+  {
+    "key": "t042",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Mir in dobrota",
+    "kind": "text"
+  },
+  {
+    "key": "t043",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Kolikor je odvisno od nas, živimo v miru z vsemi. Na hudo odgovarjamo z dobrim.",
+    "kind": "text"
+  },
+  {
+    "key": "t044",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Preberi celotno svetopisemsko besedilo · Rim 12,9–21",
+    "kind": "text"
+  },
+  {
+    "key": "t045",
+    "bucket": "besedila",
+    "group": "Poslanstvo",
+    "label": "Pismo Rimljanom 12,9–21",
+    "kind": "text"
+  },
+  {
+    "key": "t046",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "02 / SREČANJA",
+    "kind": "text"
+  },
+  {
+    "key": "t047",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Enkrat na mesec.",
+    "kind": "text"
+  },
+  {
+    "key": "t048",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Čas za bistveno.",
+    "kind": "text"
+  },
+  {
+    "key": "t049",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Ustavimo se, odpremo Sveto pismo in skupaj iščemo, kaj nam Božja beseda govori v vsakdanjem življenj",
+    "kind": "text"
+  },
+  {
+    "key": "m004",
+    "bucket": "mediji",
+    "group": "Srečanja",
+    "label": "Fotografija",
+    "kind": "image"
+  },
+  {
+    "key": "l008",
+    "bucket": "povezave",
+    "group": "Srečanja",
+    "label": "Opis slike",
+    "kind": "text"
+  },
+  {
+    "key": "t050",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "MESEČNA SREČANJA",
+    "kind": "text"
+  },
+  {
+    "key": "t051",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Vabljeni",
+    "kind": "text"
+  },
+  {
+    "key": "t052",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "med nas.",
+    "kind": "text"
+  },
+  {
+    "key": "t053",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "V središču",
+    "kind": "text"
+  },
+  {
+    "key": "t054",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Proučevanje Svetega pisma",
+    "kind": "text"
+  },
+  {
+    "key": "t055",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Skupaj",
+    "kind": "text"
+  },
+  {
+    "key": "t056",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Molitev in glasbeno slavljenje",
+    "kind": "text"
+  },
+  {
+    "key": "t057",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Naslednji termin",
+    "kind": "text"
+  },
+  {
+    "key": "l009",
+    "bucket": "povezave",
+    "group": "Srečanja",
+    "label": "Povezava: #kontakt",
+    "kind": "link"
+  },
+  {
+    "key": "t058",
+    "bucket": "besedila",
+    "group": "Srečanja",
+    "label": "Vprašaj nas o srečanjih ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t059",
+    "bucket": "besedila",
+    "group": "Dogodki",
+    "label": "DOGODKI / SKUPNOST SKOZI LETO",
+    "kind": "text"
+  },
+  {
+    "key": "t060",
+    "bucket": "besedila",
+    "group": "Dogodki",
+    "label": "Srečanja, ki",
+    "kind": "text"
+  },
+  {
+    "key": "t061",
+    "bucket": "besedila",
+    "group": "Dogodki",
+    "label": "nas povezujejo.",
+    "kind": "text"
+  },
+  {
+    "key": "t062",
+    "bucket": "besedila",
+    "group": "Dogodki",
+    "label": "Od moške skupine do tradicionalnega otvoritvenega vikenda v Crikvenici. Tukaj najdeš prihajajoče dog",
+    "kind": "text"
+  },
+  {
+    "key": "l010",
+    "bucket": "povezave",
+    "group": "Dogodki",
+    "label": "Povezava: Prikaz dogodkov",
+    "kind": "text"
+  },
+  {
+    "key": "t063",
+    "bucket": "besedila",
+    "group": "Scripture",
+    "label": "NAŠ TEMELJ / JER 33,3",
+    "kind": "text"
+  },
+  {
+    "key": "t064",
+    "bucket": "besedila",
+    "group": "Scripture",
+    "label": "»Kliči me in ti bom odgovoril;",
+    "kind": "text"
+  },
+  {
+    "key": "t065",
+    "bucket": "besedila",
+    "group": "Scripture",
+    "label": "povedal ti bom velike in nedoumljive reči,",
+    "kind": "text"
+  },
+  {
+    "key": "t066",
+    "bucket": "besedila",
+    "group": "Scripture",
+    "label": "ki jih nisi poznal.«",
+    "kind": "text"
+  },
+  {
+    "key": "l011",
+    "bucket": "povezave",
+    "group": "Scripture",
+    "label": "Povezava: https://www.biblija.net/biblija.cgi?m=Jer+33%2C3&l=sl&set=2",
+    "kind": "link"
+  },
+  {
+    "key": "t067",
+    "bucket": "besedila",
+    "group": "Scripture",
+    "label": "Jeremija 33,3 · Slovenski standardni prevod ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t068",
+    "bucket": "besedila",
+    "group": "Svetopisemske misli",
+    "label": "03 / SVETOPISEMSKE MISLI",
+    "kind": "text"
+  },
+  {
+    "key": "t069",
+    "bucket": "besedila",
+    "group": "Svetopisemske misli",
+    "label": "Beseda za",
+    "kind": "text"
+  },
+  {
+    "key": "t070",
+    "bucket": "besedila",
+    "group": "Svetopisemske misli",
+    "label": "vsak dan.",
+    "kind": "text"
+  },
+  {
+    "key": "t071",
+    "bucket": "besedila",
+    "group": "Svetopisemske misli",
+    "label": "Svetopisemske misli za trenutek zbranosti, spodbudo in molitev med našimi srečanji.",
+    "kind": "text"
+  },
+  {
+    "key": "t072",
+    "bucket": "besedila",
+    "group": "Svetopisemske misli",
+    "label": "Izberi fotografijo za večji prikaz ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t073",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "04 / GLASBA IN SLAVLJENJE",
+    "kind": "text"
+  },
+  {
+    "key": "t074",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "Ko molitev",
+    "kind": "text"
+  },
+  {
+    "key": "t075",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "postane pesem.",
+    "kind": "text"
+  },
+  {
+    "key": "t076",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "Izbor glasbe Marije in Silvestra Bukovca iz arhiva Trdne Skale. Pesmi in instrumentalne meditacije z",
+    "kind": "text"
+  },
+  {
+    "key": "l012",
+    "bucket": "povezave",
+    "group": "Glasba",
+    "label": "Povezava: https://trdnaskala.wixsite.com/trdna-skala-lj/glasba",
+    "kind": "link"
+  },
+  {
+    "key": "t077",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "Poslušaj v obstoječem glasbenem arhivu",
+    "kind": "text"
+  },
+  {
+    "key": "t078",
+    "bucket": "besedila",
+    "group": "Glasba",
+    "label": "↗",
+    "kind": "text"
+  },
+  {
+    "key": "t079",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "05 / KONTAKT",
+    "kind": "text"
+  },
+  {
+    "key": "t080",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "Stopimo",
+    "kind": "text"
+  },
+  {
+    "key": "t081",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "v stik.",
+    "kind": "text"
+  },
+  {
+    "key": "t082",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "Želiš izvedeti več o skupnosti ali naslednjem srečanju? Pokliči nas ali nam piši. Veseli bomo tvojeg",
+    "kind": "text"
+  },
+  {
+    "key": "t083",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "E-POŠTA",
+    "kind": "text"
+  },
+  {
+    "key": "t084",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "Pošlji sporočilo ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t085",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "TELEFON",
+    "kind": "text"
+  },
+  {
+    "key": "t086",
+    "bucket": "besedila",
+    "group": "Kontakt",
+    "label": "Pokliči nas ↗",
+    "kind": "text"
+  },
+  {
+    "key": "t087",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "SKUPNOST TRDNA SKALA",
+    "kind": "text"
+  },
+  {
+    "key": "t088",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "Vera se poglablja.",
+    "kind": "text"
+  },
+  {
+    "key": "t089",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "Ko jo živimo skupaj.",
+    "kind": "text"
+  },
+  {
+    "key": "t090",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "Vabljeni, da nas spoznate na enem od mesečnih srečanj.",
+    "kind": "text"
+  },
+  {
+    "key": "l013",
+    "bucket": "povezave",
+    "group": "Invitation",
+    "label": "Povezava: #srecanja",
+    "kind": "link"
+  },
+  {
+    "key": "t091",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "Več o srečanjih",
+    "kind": "text"
+  },
+  {
+    "key": "t092",
+    "bucket": "besedila",
+    "group": "Invitation",
+    "label": "↗",
+    "kind": "text"
+  },
+  {
+    "key": "l014",
+    "bucket": "povezave",
+    "group": "Noga",
+    "label": "Povezava: #domov",
+    "kind": "link"
+  },
+  {
+    "key": "l015",
+    "bucket": "povezave",
+    "group": "Noga",
+    "label": "Opis slike",
+    "kind": "text"
+  },
+  {
+    "key": "t093",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "TRDNA SKALA",
+    "kind": "text"
+  },
+  {
+    "key": "t094",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "SKUPNOST OB BOŽJI BESEDI",
+    "kind": "text"
+  },
+  {
+    "key": "t095",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "Ljubljana · Jer 33,3",
+    "kind": "text"
+  },
+  {
+    "key": "l016",
+    "bucket": "povezave",
+    "group": "Noga",
+    "label": "Povezava: #domov",
+    "kind": "link"
+  },
+  {
+    "key": "t096",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "Na vrh ↑",
+    "kind": "text"
+  },
+  {
+    "key": "l017",
+    "bucket": "povezave",
+    "group": "Splošno",
+    "label": "Povezava: Zapri fotografijo",
+    "kind": "text"
+  },
+  {
+    "key": "t097",
+    "bucket": "besedila",
+    "group": "Splošno",
+    "label": "Zapri ×",
+    "kind": "text"
+  },
+  {
+    "key": "l018",
+    "bucket": "povezave",
+    "group": "Splošno",
+    "label": "Opis slike",
+    "kind": "text"
+  },
+  {
+    "key": "c001",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 1 · #f4f1e9",
+    "kind": "color"
+  },
+  {
+    "key": "c002",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 2 · #302f28",
+    "kind": "color"
+  },
+  {
+    "key": "c003",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 3 · #706d61",
+    "kind": "color"
+  },
+  {
+    "key": "c004",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 4 · #686c4b",
+    "kind": "color"
+  },
+  {
+    "key": "c005",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 5 · #d7d3c7",
+    "kind": "color"
+  },
+  {
+    "key": "c006",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 6 · #ddd3c2",
+    "kind": "color"
+  },
+  {
+    "key": "c007",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 7 · #282a23",
+    "kind": "color"
+  },
+  {
+    "key": "c008",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 8 · #aaa995",
+    "kind": "color"
+  },
+  {
+    "key": "c009",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 9 · white",
+    "kind": "color"
+  },
+  {
+    "key": "c010",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 10 · #4d5236",
+    "kind": "color"
+  },
+  {
+    "key": "c011",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 11 · #b4b39f",
+    "kind": "color"
+  },
+  {
+    "key": "c012",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 12 · #939e9c",
+    "kind": "color"
+  },
+  {
+    "key": "c013",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 13 · #18272965",
+    "kind": "color"
+  },
+  {
+    "key": "c014",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 14 · transparent",
+    "kind": "color"
+  },
+  {
+    "key": "c015",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 15 · #f4f1e9eb",
+    "kind": "color"
+  },
+  {
+    "key": "c016",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 16 · #e9e5da",
+    "kind": "color"
+  },
+  {
+    "key": "c017",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 17 · #656b4d",
+    "kind": "color"
+  },
+  {
+    "key": "c018",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 18 · #e3e5d2",
+    "kind": "color"
+  },
+  {
+    "key": "c019",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 19 · #e0d4b9",
+    "kind": "color"
+  },
+  {
+    "key": "c020",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 20 · #b1b29e",
+    "kind": "color"
+  },
+  {
+    "key": "c021",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 21 · #332f29",
+    "kind": "color"
+  },
+  {
+    "key": "c022",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 22 · #c1b49e",
+    "kind": "color"
+  },
+  {
+    "key": "c023",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 23 · #c7b79d",
+    "kind": "color"
+  },
+  {
+    "key": "c024",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 24 · #d0c8bb",
+    "kind": "color"
+  },
+  {
+    "key": "c025",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 25 · #0005",
+    "kind": "color"
+  },
+  {
+    "key": "c026",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 26 · #161812e8",
+    "kind": "color"
+  },
+  {
+    "key": "c027",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 27 · #b86c32",
+    "kind": "color"
+  },
+  {
+    "key": "c028",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 28 · #c7c2b5",
+    "kind": "color"
+  },
+  {
+    "key": "c029",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Osnovno kremno ozadje",
+    "kind": "color"
+  },
+  {
+    "key": "c030",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Osnovno temno besedilo",
+    "kind": "color"
+  },
+  {
+    "key": "c031",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Drugotno besedilo",
+    "kind": "color"
+  },
+  {
+    "key": "c032",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Poudarki v besedilu",
+    "kind": "color"
+  },
+  {
+    "key": "c033",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Obrobe",
+    "kind": "color"
+  },
+  {
+    "key": "c034",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Zelena ozadja",
+    "kind": "color"
+  },
+  {
+    "key": "c035",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Oranžna / glavni gumbi",
+    "kind": "color"
+  },
+  {
+    "key": "c036",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 36 · #94380f",
+    "kind": "color"
+  },
+  {
+    "key": "c037",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 37 · #eadcc3",
+    "kind": "color"
+  },
+  {
+    "key": "c038",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 38 · #6d431f",
+    "kind": "color"
+  },
+  {
+    "key": "c039",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Svetlo zelena ozadja",
+    "kind": "color"
+  },
+  {
+    "key": "c040",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 40 · #30362b",
+    "kind": "color"
+  },
+  {
+    "key": "c041",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 41 · #3a4636",
+    "kind": "color"
+  },
+  {
+    "key": "c042",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 42 · #664426",
+    "kind": "color"
+  },
+  {
+    "key": "c043",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 43 · #687a60",
+    "kind": "color"
+  },
+  {
+    "key": "c044",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 44 · #6f614e",
+    "kind": "color"
+  },
+  {
+    "key": "c045",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 45 · #f3e4ce",
+    "kind": "color"
+  },
+  {
+    "key": "c046",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 46 · #302b24",
+    "kind": "color"
+  },
+  {
+    "key": "c047",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 47 · #c8d6bc",
+    "kind": "color"
+  },
+  {
+    "key": "c048",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 48 · #e2d3bc",
+    "kind": "color"
+  },
+  {
+    "key": "c049",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 49 · #d4deca",
+    "kind": "color"
+  },
+  {
+    "key": "c050",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 50 · #f4e8d5",
+    "kind": "color"
+  },
+  {
+    "key": "c051",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 51 · #bcaf98",
+    "kind": "color"
+  },
+  {
+    "key": "c052",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 52 · #efe3cf",
+    "kind": "color"
+  },
+  {
+    "key": "c053",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 53 · #c6bba5",
+    "kind": "color"
+  },
+  {
+    "key": "c054",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 54 · #302b2466",
+    "kind": "color"
+  },
+  {
+    "key": "c055",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 55 · #d8dfd2",
+    "kind": "color"
+  },
+  {
+    "key": "c056",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 56 · #211c18b3",
+    "kind": "color"
+  },
+  {
+    "key": "c057",
+    "bucket": "barve",
+    "group": "Barve",
+    "label": "Barva 57 · #74664b26",
+    "kind": "color"
+  },
+  {
+    "key": "t-social-label",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "Besedilo nad družbenimi povezavami",
+    "kind": "text"
+  },
+  {
+    "key": "t-social-instagram",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "Instagram — naziv",
+    "kind": "text"
+  },
+  {
+    "key": "t-social-facebook",
+    "bucket": "besedila",
+    "group": "Noga",
+    "label": "Facebook — naziv",
+    "kind": "text"
+  },
+  {
+    "key": "l-social-instagram",
+    "bucket": "povezave",
+    "group": "Noga",
+    "label": "Instagram — povezava",
+    "kind": "link"
+  },
+  {
+    "key": "l-social-facebook",
+    "bucket": "povezave",
+    "group": "Noga",
+    "label": "Facebook — povezava",
+    "kind": "link"
+  }
+]

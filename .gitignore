@@ -1,0 +1,4 @@
+.cms/varnostne-kopije/
+*.cms-tmp
+.DS_Store
+Thumbs.db
