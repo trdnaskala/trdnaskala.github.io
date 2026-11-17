@@ -11,16 +11,16 @@ window.VSEBINA = {
       "naslov": "Batlle",
       "opis": "Demo na 2 Krn 20",
       "avtor": "Silvester Bukovec",
-      "povezava": "",
+      "povezava": "assets/nalozeno/20261117-142000-072-8b1a31-battle.mp3",
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
     },
     {
-      "naslov": "Slavljenje (Daj mi Poljub)",
+      "naslov": "Psalm 34\r\n",
       "opis": "",
       "avtor": "Marija in Silvester Bukovec",
-      "povezava": "",
+      "povezava": "assets/nalozeno/20261117-142029-122-4a55de-ps-34.mp3",
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
@@ -29,7 +29,7 @@ window.VSEBINA = {
       "naslov": "Worship in the rain",
       "opis": "",
       "avtor": "Silvester Bukovec",
-      "povezava": "",
+      "povezava": "assets/nalozeno/20261117-142052-048-385b3c-worship-in-the-rain.mp3",
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
@@ -38,7 +38,7 @@ window.VSEBINA = {
       "naslov": "Instrumental meditation",
       "opis": "Demo na 1 Krn 16,9",
       "avtor": "Silvester Bukovec",
-      "povezava": "",
+      "povezava": "assets/nalozeno/20261117-142118-232-f788c5-acoustic-meditation.mp3",
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
@@ -1057,5 +1057,18 @@ window.VSEBINA = {
     "c055": "#d8dfd2",
     "c056": "#211c18b3",
     "c057": "#74664b26"
+  },
+  "naslovnica": {
+    "polozaj": "zgoraj-sredina",
+    "navpicniOdmik": 24,
+    "navpicniOdmikMobilno": 16,
+    "vodoravniOdmik": 32,
+    "velikostNaslova": 40,
+    "velikostNaslovaMobilno": 27,
+    "sirinaOdstotki": 94,
+    "prosojnostPas": 30,
+    "barvaPas": "#201c18",
+    "prikazOpisa": true,
+    "prikazOznake": false
   }
 };
