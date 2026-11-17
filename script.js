@@ -50,6 +50,10 @@ for (const item of vsebina.galerija || []) {
 }
 const video = document.getElementById('uvodni-video');
 const videoButton = document.getElementById('video-preklop');
+// Enotna nadomestna slika: video in ozadje uporabljata isti poster iz CMS-ja.
+const videoBackground=video.closest('.hero-background');
+if(videoBackground){videoBackground.style.backgroundImage=video.getAttribute('poster')?'url('+JSON.stringify(video.getAttribute('poster'))+')':'none';videoBackground.style.backgroundSize='cover';videoBackground.style.backgroundPosition='center';}
+
 const videoSource=video.querySelector('source');if(videoSource&&/\.webm(\?|$)/i.test(videoSource.getAttribute('src')||'')){videoSource.type='video/webm';video.load();}
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 function updateVideoButton() {

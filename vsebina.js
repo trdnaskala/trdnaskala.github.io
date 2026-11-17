@@ -403,7 +403,7 @@ window.VSEBINA = {
       "m001": "assets/logotip-wix.avif"
     },
     "Naslovnica": {
-      "m002": "assets/naslovnica-nova.jpg",
+      "m002": "assets/uvodni-video-poster.jpg",
       "m003": "assets/nalozeno/20261117-122318-812-5fef2b-videozanovospletno.mp4"
     },
     "Srečanja": {
