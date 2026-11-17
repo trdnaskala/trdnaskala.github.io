@@ -3,12 +3,12 @@ window.VSEBINA = {
   "termin": "11. december 2026 ob 19.00 · Grad Rakovnik, Ljubljana",
   "opomba": "Naslednji termini: 8. januar, 12. februar, 12. marec, 9. april, 14. maj in 11. junij 2027 ob 19.00.",
   "poslanstvo": "Ljubezen naj bo brez hinavščine. Odklanjajte zlo, oklepajte pa se dobrega. Drug drugega ljubite z bratovsko ljubeznijo. Tekmujte v medsebojnem spoštovanju. Ne popuščajte v vnemi, pač pa bodite goreči v duhu, služite Gospodu. Veselite se v upanju, potrpite v stiski, vztrajajte v molitvi, pomagajte svetim v potrebi, gojite gostoljubje.\n\nBlagoslavljajte tiste, ki vas preganjajo, blagoslavljajte jih in ne preklinjajte. Veselite se s tistimi, ki se veselijo, in jokajte s tistimi, ki jočejo. Drug do drugega gojite ista čustva, ne hrepenite po visokih stvareh, marveč se prilagajajte skromnim. Ne imejte se v svojih očeh za pametne. Nikomur ne vračajte hudega s hudim. Pred vsemi ljudmi skušajte delati dobro. Če je mogoče, kolikor je odvisno od vas, živite v miru z vsemi ljudmi.\n\nNe obračunavajte na svojo roko, predragi, ampak prepuščajte obračun božji jezi, saj je pisano: »Meni gre maščevanje, jaz bom povrnil,« pravi Gospod. Nasprotno: »Če je tvoj sovražnik lačen, mu daj jesti; če je žejen, mu daj piti; če boš namreč delal tako, mu boš sipal na glavo žarečega oglja.« Ne daj se premagati hudemu, temveč premagaj hudo z dobrim.",
-  "email": "marija.bukovec@siol.net",
+  "email": "info@trdnaskala.si",
   "telefon": "031 810 617",
   "telefonPovezava": "+38631810617",
   "glasba": [
     {
-      "naslov": "Batlle",
+      "naslov": "Bitka",
       "opis": "Demo na 2 Krn 20",
       "avtor": "Silvester Bukovec",
       "povezava": "assets/nalozeno/20261117-142000-072-8b1a31-battle.mp3",
@@ -26,7 +26,7 @@ window.VSEBINA = {
       "velikostPisave": ""
     },
     {
-      "naslov": "Worship in the rain",
+      "naslov": "Slavljenje na deževen dan",
       "opis": "",
       "avtor": "Silvester Bukovec",
       "povezava": "assets/nalozeno/20261117-142052-048-385b3c-worship-in-the-rain.mp3",
@@ -35,7 +35,7 @@ window.VSEBINA = {
       "velikostPisave": ""
     },
     {
-      "naslov": "Instrumental meditation",
+      "naslov": "Molitev",
       "opis": "Demo na 1 Krn 16,9",
       "avtor": "Silvester Bukovec",
       "povezava": "assets/nalozeno/20261117-142118-232-f788c5-acoustic-meditation.mp3",
@@ -360,7 +360,7 @@ window.VSEBINA = {
   },
   "povezave": {
     "Splošno": {
-      "l001": "Skupnost Trdna Skala. Mesečna srečanja ob proučevanju Svetega pisma, molitvi in glasbenem slavljenju.",
+      "l001": "Trdna Skala. Mesečna srečanja ob proučevanju Svetega pisma, molitvi in glasbenem slavljenju.",
       "l002": "#vsebina",
       "l017": "Zapri fotografijo",
       "l018": ""
