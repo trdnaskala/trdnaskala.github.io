@@ -51,6 +51,33 @@ window.VSEBINA = {
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
+    },
+    {
+      "naslov": "Slava Ti Gospod",
+      "opis": "",
+      "avtor": "Marija in Silvester Bukovec",
+      "povezava": "https://youtu.be/ZFANEfTp6QM?si=3NUWPckhXEGcIsnH",
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
+    },
+    {
+      "naslov": "V imenu Jezusa",
+      "opis": "",
+      "avtor": "Marija in Silvester Bukovec",
+      "povezava": "https://youtu.be/h6uE8mvn9vI?si=Sr7R2coCeIAAuvbv",
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
+    },
+    {
+      "naslov": "Jezus Kristus je moje ime",
+      "opis": "",
+      "avtor": "Marija in Silvester Bukovec",
+      "povezava": "https://youtu.be/7ngRHGr93nI?si=5L1VnADUvIEYp7hu",
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
     }
   ],
   "galerija": [
