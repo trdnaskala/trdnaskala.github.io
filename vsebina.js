@@ -403,7 +403,7 @@ window.VSEBINA = {
     },
     "Noga": {
       "t093": "TRDNA SKALA",
-      "t094": "BESEDA, SLAVLJENJE, MOLITEV",
+      "t094": "BOŽJA BESEDA, SLAVLJENJE, MOLITEV",
       "t095": "Ljubljana · Jer 33,3",
       "t096": "Na vrh ↑",
       "t-social-label": "Spremljajte nas tudi na",
