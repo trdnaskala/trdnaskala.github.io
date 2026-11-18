@@ -42,6 +42,15 @@ window.VSEBINA = {
       "barvaBesedila": "",
       "barvaOzadja": "",
       "velikostPisave": ""
+    },
+    {
+      "naslov": "Yeshua",
+      "opis": "",
+      "avtor": "Original: Fernandinho; Copyrights: 2007 Editora Adorando LTda, SLO priredba: Marija in Silvester Bukovec",
+      "povezava": "https://youtu.be/xtyjMoaj86c?si=VQZEqCB1-PVcdgMq",
+      "barvaBesedila": "",
+      "barvaOzadja": "",
+      "velikostPisave": ""
     }
   ],
   "galerija": [
