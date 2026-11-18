@@ -422,7 +422,7 @@ window.VSEBINA = {
     },
     "Naslovnica": {
       "m002": "assets/uvodni-video-poster.jpg",
-      "m003": "assets/nalozeno/20261117-122318-812-5fef2b-videozanovospletno.mp4"
+      "m003": "assets/nalozeno/20261118-083343-181-711d4d-videozanovospletno-1.mp4"
     },
     "Srečanja": {
       "m004": "assets/misel-14.jpg"
