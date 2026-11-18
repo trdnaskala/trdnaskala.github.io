@@ -381,7 +381,7 @@ window.VSEBINA = {
       "t073": "04 / GLASBA IN SLAVLJENJE",
       "t074": "Ko molitev",
       "t075": "postane pesem.",
-      "t076": "Izbor glasbe Marije in Silvestra Bukovca iz arhiva Trdne Skale. Pesmi in instrumentalne meditacije za čas slavljenja in zbranosti."
+      "t076": "Izbor glasbe iz arhiva Trdne Skale. Pesmi in instrumentalne meditacije za čas slavljenja in zbranosti."
     },
     "Kontakt": {
       "t079": "05 / KONTAKT",
