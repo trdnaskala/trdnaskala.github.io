@@ -195,7 +195,7 @@ window.VSEBINA = {
     {
       "naslov": "Moška skupina",
       "vrsta": "Srečanje skupine",
-      "zacetek": "2026-11-19",
+      "zacetek": "2026-12-15",
       "konec": "",
       "ura": "18.30",
       "lokacija": "Za lokacijo nas kontaktiraj.",
