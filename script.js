@@ -75,7 +75,29 @@ lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.cl
 
 // Dogodki se urejajo v Windows urejevalniku, brez poseganja v HTML.
 const oznake=vsebina.oznake||{};
-const danes=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Ljubljana'});
+// Datume izračunamo ob vsakem prikazu po slovenskem času.
+function todayInLjubljana(now=new Date()){
+ const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Ljubljana',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+ const get=type=>parts.find(p=>p.type===type).value;
+ return get('year')+'-'+get('month')+'-'+get('day');
+}
+// UTC uporabimo samo za koledarsko računanje, da prehodi na poletni čas ne premaknejo dneva.
+function nextWeeklyDate(start,today){
+ if(!/^\d{4}-\d{2}-\d{2}$/.test(start||'')||!/^\d{4}-\d{2}-\d{2}$/.test(today||''))return null;
+ const first=Date.parse(start+'T00:00:00Z'),current=Date.parse(today+'T00:00:00Z');
+ if(!Number.isFinite(first)||!Number.isFinite(current)||new Date(first).toISOString().slice(0,10)!==start||new Date(current).toISOString().slice(0,10)!==today)return null;
+ const weeks=Math.max(0,Math.ceil((current-first)/(7*86400000)));
+ return new Date(first+weeks*7*86400000).toISOString().slice(0,10);
+}
+function eventOccurrence(event,today){
+ if(event.tedensko!==true)return event;
+ const next=nextWeeklyDate(event.zacetek,today);
+ return next?{...event,zacetek:next,konec:'',ponovljen:true}:event;
+}
+function eventsForView(events,today,past){
+ return events.filter(e=>e.aktiven!==false).map(e=>eventOccurrence(e,today))
+ .filter(e=>Boolean((e.konec||e.zacetek)&&((e.konec||e.zacetek)<today))===past);
+}
 const formatDogodek=iso=>iso?new Intl.DateTimeFormat('sl-SI',{day:'numeric',month:'long',year:'numeric'}).format(new Date(iso+'T12:00:00')):'';
 const eventList=document.getElementById('dogodki-seznam');
 let prikaziPretekle=false;
@@ -83,14 +105,17 @@ function eventNode(tag,text,className){const el=document.createElement(tag);if(t
 function externalEventLink(url,label){const a=eventNode('a',label,'text-link');a.href=url;if(/^https?:/i.test(url)){a.target='_blank';a.rel='noopener noreferrer';}return a;}
 function renderEvents(){
  eventList.replaceChildren();
- const events=(vsebina.dogodki||[]).filter(e=>e.aktiven!==false&&Boolean((e.konec||e.zacetek)&&((e.konec||e.zacetek)<danes))===prikaziPretekle);
+ const danes=todayInLjubljana();
+ const events=eventsForView(vsebina.dogodki||[],danes,prikaziPretekle);
  if(!events.length)eventList.append(eventNode('p',oznake.brezDogodkov));
  for(const event of events){const card=eventNode('article',undefined,'event-card');if(event.barvaBesedila)card.style.color=event.barvaBesedila;if(event.barvaOzadja)card.style.backgroundColor=event.barvaOzadja;if(event.velikostPisave)card.style.fontSize=event.velikostPisave+'px';
  if(event.slika){const img=eventNode('img');img.src=event.slika;img.alt=event.naslov;img.loading='lazy';card.append(img);}
  card.append(eventNode('p',event.vrsta,'eyebrow'),eventNode('h3',event.naslov));
  let dates=event.zacetek?formatDogodek(event.zacetek):oznake.brezDatum;
  if(event.konec&&event.konec!==event.zacetek)dates+=' – '+formatDogodek(event.konec);
+ if(event.ponovljen)dates='Naslednji termin: '+dates;
  card.append(eventNode('p',dates+(event.ura?' · '+event.ura:''),'event-date'));
+ if(event.ponovljen)card.append(eventNode('p','Ponavlja se vsak teden.','event-description'));
  if(event.lokacija)card.append(eventNode('p',event.lokacija,'event-location'));
  if(event.opis)card.append(eventNode('p',event.opis,'event-description'));
  if(event.video){if(/\.(mp4|webm)(\?|$)/i.test(event.video)){const clip=eventNode('video');clip.src=event.video;clip.controls=true;clip.preload='none';clip.playsInline=true;if(event.slika)clip.poster=event.slika;card.append(clip);}else card.append(externalEventLink(event.video,oznake.napovednik));}
@@ -101,6 +126,9 @@ document.getElementById('prihajajoci').textContent=oznake.prihajajoci;
 document.getElementById('pretekli').textContent=oznake.pretekli;
 document.getElementById('prihajajoci').addEventListener('click',()=>{prikaziPretekle=false;renderEvents();});
 document.getElementById('pretekli').addEventListener('click',()=>{prikaziPretekle=true;renderEvents();});renderEvents();
+// Osveži tudi stran, ki ostane odprta čez polnoč.
+let eventDay=todayInLjubljana();
+setInterval(()=>{const day=todayInLjubljana();if(day!==eventDay){eventDay=day;renderEvents();}},60000);
 // Pri avdio posnetkih je mogoče dodati datoteko ali zunanjo povezavo.
 function musicMediaKind(url){const path=String(url||'').trim().split(/[?#]/)[0];if(/\.(mp3|m4a|ogg|wav)$/i.test(path))return 'audio';if(/\.(mp4|webm)$/i.test(path))return 'video';return 'link';}
 document.querySelectorAll('#glasba-seznam .track').forEach((row,i)=>{

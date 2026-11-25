@@ -190,7 +190,8 @@ window.VSEBINA = {
       "aktiven": true,
       "barvaBesedila": "",
       "barvaOzadja": "",
-      "velikostPisave": ""
+      "velikostPisave": "",
+      "tedensko": true
     },
     {
       "naslov": "Moška skupina",
@@ -207,7 +208,8 @@ window.VSEBINA = {
       "aktiven": true,
       "barvaBesedila": "",
       "barvaOzadja": "",
-      "velikostPisave": ""
+      "velikostPisave": "",
+      "tedensko": false
     },
     {
       "naslov": "Crikvenica 2027",
@@ -224,7 +226,8 @@ window.VSEBINA = {
       "aktiven": true,
       "barvaBesedila": "",
       "barvaOzadja": "",
-      "velikostPisave": ""
+      "velikostPisave": "",
+      "tedensko": false
     },
     {
       "naslov": "DAR",
@@ -241,7 +244,8 @@ window.VSEBINA = {
       "aktiven": true,
       "barvaBesedila": "",
       "barvaOzadja": "",
-      "velikostPisave": ""
+      "velikostPisave": "",
+      "tedensko": false
     },
     {
       "naslov": "Slavljenje in molitev",
@@ -258,7 +262,8 @@ window.VSEBINA = {
       "aktiven": true,
       "barvaBesedila": "",
       "barvaOzadja": "",
-      "velikostPisave": ""
+      "velikostPisave": "",
+      "tedensko": false
     }
   ],
   "oznake": {
