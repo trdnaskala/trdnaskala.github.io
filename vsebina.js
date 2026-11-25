@@ -178,7 +178,7 @@ window.VSEBINA = {
     {
       "naslov": "Molitvena soba - vsako sredo ob 21. uri\r\n",
       "vrsta": "Glej vse delam novo (Raz 21,5)",
-      "zacetek": "2026-11-18",
+      "zacetek": "2026-11-25",
       "konec": "",
       "ura": "21:00",
       "lokacija": "Zoom - On-line",
